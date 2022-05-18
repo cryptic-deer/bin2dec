@@ -26,7 +26,7 @@ binaryInput.addEventListener("input", e => {
 		decimalOutput.classList.remove("error");
 
 		decimalOutput.textContent = binToDec(binaryString);
-	}, 1000);
+	}, 500);
 });
 // Converting binary number to decimal
 const binToDec = binaryString => {
